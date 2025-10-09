@@ -123,8 +123,9 @@ Insight: MRI and screening procedures account for over 60 % of total volume, wit
   - Revenue growth driven by public insurers and a handful of high-value procedures.
   - Procedural distribution dominated by radiology and screening services, consistent with modern outpatient trends.
 
+---
 
-## 🔍 Explore Each Page
+## Explore Each Page
 - [Page 1: Overview](dashboard_pages/01_dashboard_overview.md)
 - [Page 2: Patient Volume Trends](dashboard_pages/02_patient_volume_trends.md)
 - [Page 3: Length of Stay](dashboard_pages/03_length_of_stay.md)
