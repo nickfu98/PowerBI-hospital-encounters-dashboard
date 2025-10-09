@@ -34,5 +34,5 @@ Total Encounters = COUNTROWS('vw_encounter_details')
 ## Insights
   - Peaks in 2014 and 2020–2022; outpatient and ambulatory drive growth.
   - Procedure volume concentrated in screenings and radiology.
-  - 
+
 [Page 3 →](03_length_of_stay.md)
