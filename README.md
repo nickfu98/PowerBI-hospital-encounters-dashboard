@@ -115,7 +115,15 @@ Insight: MRI and screening procedures account for over 60 % of total volume, wit
   - Dynamic text cards summarize selected slicer values for contextual storytelling.
   - Data refresh is automated through SQL Views (encounter data through Feb 2022).
 
-```markdown
+
+**Key Takeaways**
+  - Hospital handled steady growth in encounters from 2011–2022.
+  - Average LOS remained stable around 7.25 hours.
+  - Readmissions remain elevated in inpatient and urgent care settings.
+  - Revenue growth driven by public insurers and a handful of high-value procedures.
+  - Procedural distribution dominated by radiology and screening services, consistent with modern outpatient trends.
+
+ ```markdown
 ## 🔍 Explore Each Page
 - [Page 1: Overview](dashboard_pages/01_dashboard_overview.md)
 - [Page 2: Patient Volume Trends](dashboard_pages/02_patient_volume_trends.md)
@@ -123,9 +131,3 @@ Insight: MRI and screening procedures account for over 60 % of total volume, wit
 - [Page 4: Readmission (30-Day)](dashboard_pages/04_readmission_rates.md)
 - [Page 5: Revenue Trends](dashboard_pages/05_revenue_trends.md)
 - [Page 6: Procedural Insights](dashboard_pages/06_procedural_insights.md)
-**Key Takeaways**
-  - Hospital handled steady growth in encounters from 2011–2022.
-  - Average LOS remained stable around 7.25 hours.
-  - Readmissions remain elevated in inpatient and urgent care settings.
-  - Revenue growth driven by public insurers and a handful of high-value procedures.
-  - Procedural distribution dominated by radiology and screening services, consistent with modern outpatient trends.
