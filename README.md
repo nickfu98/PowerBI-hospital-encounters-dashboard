@@ -28,7 +28,7 @@ Tables: `encounters`, `patients`, `payers`, `procedures`
 
 Date Table: Custom DAX table that auto-detects the first and last encounter dates (2011–2022) for slicer filtering.
 
-The model follows a star schema, centered on vw_encounter_details linked to dimension tables for Payers, Procedures, Patients, and Date Table.
+The model follows a star schema, centered on `vw_encounter_details` linked to dimension tables for Payers, Procedures, Patients, and Date Table.
 
 ---
 
