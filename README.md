@@ -1,7 +1,7 @@
 # PowerBI Hospital Encounters Dashboard
 
 
-Project Overview
+## Project Overview
 This Power BI dashboard analyzes 27,891 hospital encounters recorded between 2011 and 2022.
 The goal was to uncover patterns in patient volume, length of stay, readmission rates, and revenue - enabling data-driven insights to improve hospital operations and patient outcomes.
 
@@ -20,3 +20,16 @@ To keep the layout simple and readable, the dashboard is divided into six pages:
 
 6. Procedural Insights - procedure mix, gender distribution, and LOS by procedure
 
+---
+
+## Data Model
+Source: SQL Server Management Studio (SSMS)
+Tables: `encounters`, `patients`, `payers`, `procedures`
+
+Date Table: Custom DAX table that auto-detects the first and last encounter dates (2011–2022) for slicer filtering.
+
+The model follows a star schema, centered on vw_encounter_details linked to dimension tables for Payers, Procedures, Patients, and Date Table.
+
+---
+
+## Dashboard Pages
