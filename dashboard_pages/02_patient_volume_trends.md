@@ -1,5 +1,3 @@
-## 02 — Patient Volume Trends
-
 [← Page 1](01_dashboard_overview.md) | [Page 3 →](03_length_of_stay.md)
 
 # Patient Volume Trends
