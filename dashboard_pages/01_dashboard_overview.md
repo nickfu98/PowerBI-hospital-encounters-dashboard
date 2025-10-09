@@ -35,6 +35,7 @@ Avg LOS (hrs)   = AVERAGE('vw_encounter_details'[LOS_Hours])
 Total Revenue   = SUM('vw_encounter_details'[payer_coverage])
 Revenue / Encounter = DIVIDE([Total Revenue], [Total Encounters], 0)
 Readmission Rate % = DIVIDE(SUM('vw_readmissions'[yes_readmit_30d]), COUNTROWS('vw_readmissions'), 0)
+```
 
 ---
 
