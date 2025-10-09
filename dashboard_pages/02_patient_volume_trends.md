@@ -1,5 +1,3 @@
----
-
 ## 02 — Patient Volume Trends
 **File:** `dashboard_pages/02_patient_volume_trends.md`
 ```markdown
