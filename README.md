@@ -65,10 +65,10 @@ Insight: Encounter volume peaks in 2014 and 2020–2022, aligning with outpatien
 Analyzes efficiency by measuring average stay duration across dimensions.
 
 Visuals:
-  - Line chart: Avg LOS (hours) by Year
-  - Column chart: Avg LOS (hours) by Month
-  - Bar chart: Avg LOS (hours) by Age Group
-  - Bar chart: Top 10 Procedures by Avg LOS
+  - Line chart: Average LOS (hours) by Year
+  - Column chart: Average LOS (hours) by Month
+  - Bar chart: Average LOS (hours) by Age Group
+  - Bar chart: Top 10 Procedures by Average LOS
 
 Insight: Patients under 30 and 30–39 had the longest stays, averaging ~30–40 hours, while LOS spikes in early 2014 and late 2021 indicate episodic operational bottlenecks.
 
@@ -88,7 +88,7 @@ Evaluates hospital financial performance and payer contributions.
 
 Visuals:
   - Line chart: Total Revenue by Year
-  - Column chart: Avg Revenue per Encounter by Payer
+  - Column chart: Average Revenue per Encounter by Payer
   - Column chart: Total Revenue by Payer
   - Bar chart: Top 10 Procedures by Total Revenue
 
@@ -103,7 +103,7 @@ Visuals:
     - Top 5 Procedures % of Total (62.7 %)
     - Average LOS (7.25 h)
   - Clustered Bar: Gender Distribution of Top 5 Procedures
-  - Bar Chart: Top 5 Longest Procedures by Avg LOS
+  - Bar Chart: Top 5 Longest Procedures by Average LOS
 
 Insight: MRI and screening procedures account for over 60 % of total volume, with slight gender variation favoring female patients in preventive care services.
 
