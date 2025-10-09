@@ -2,7 +2,7 @@
 
 # Dashboard Overview (2011–2022)
 
-![Overview](../dashboard_screenshots/01_dashboard_overview.png)
+![Overview](dashboard_screenshots/01_dashboard_overview.png)
 
 ## Purpose
 Executive snapshot of operational, clinical, and financial KPIs for Massachusetts General Hospital encounters (2011–2022).
