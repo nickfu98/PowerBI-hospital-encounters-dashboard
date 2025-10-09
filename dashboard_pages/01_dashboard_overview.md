@@ -43,4 +43,4 @@ Readmission Rate % = DIVIDE(SUM('vw_readmissions'[yes_readmit_30d]), COUNTROWS('
   - Readmissions ~62% with higher rates in urgent/inpatient classes.
   - Outpatient + Ambulatory dominate encounter mix.
 
-[Page 2 →](02_patient_volume_trends.md)
+[← Back to README](../README.md) | [Page 2 →](02_patient_volume_trends.md)
