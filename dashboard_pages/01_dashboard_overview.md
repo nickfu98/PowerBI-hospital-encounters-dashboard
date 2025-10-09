@@ -37,8 +37,6 @@ Revenue / Encounter = DIVIDE([Total Revenue], [Total Encounters], 0)
 Readmission Rate % = DIVIDE(SUM('vw_readmissions'[yes_readmit_30d]), COUNTROWS('vw_readmissions'), 0)
 ```
 
----
-
 ## Insights
 
   - Stable LOS (~7.25 hours) across the period.
