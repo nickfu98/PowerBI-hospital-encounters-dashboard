@@ -109,6 +109,12 @@ Insight: MRI and screening procedures account for over 60 % of total volume, wit
 
 ---
 
+**Design & Interactivity**
+  - Shared slicers across all pages: Year, Insurance Provider, Age Group, and a timeline range slider.
+  - Data labels applied selectively for clarity.
+  - Dynamic text cards summarize selected slicer values for contextual storytelling.
+  - Data refresh is automated through SQL Views (encounter data through Feb 2022).
+
 **Key Takeaways**
   - Hospital handled steady growth in encounters from 2011–2022.
   - Average LOS remained stable around 7.25 hours.
