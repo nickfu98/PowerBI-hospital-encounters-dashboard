@@ -27,8 +27,6 @@ Measure operational efficiency via average LOS by time and demographic.
 Avg LOS (hrs) = AVERAGE('vw_encounter_details'[LOS_Hours])
 ```
 
----
-
 ## Insights
   - Longest LOS in <30 and 30–39 groups; spike in 2014 indicates episodic bottlenecks.
 
