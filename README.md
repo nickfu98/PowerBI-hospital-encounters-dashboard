@@ -107,6 +107,8 @@ Visuals:
 
 Insight: MRI and screening procedures account for over 60 % of total volume, with slight gender variation favoring female patients in preventive care services.
 
+---
+
 **Key Takeaways**
   - Hospital handled steady growth in encounters from 2011–2022.
   - Average LOS remained stable around 7.25 hours.
