@@ -1,6 +1,5 @@
 ## 02 — Patient Volume Trends
-**File:** `dashboard_pages/02_patient_volume_trends.md`
-```markdown
+
 [← Page 1](01_dashboard_overview.md) | [Page 3 →](03_length_of_stay.md)
 
 # Patient Volume Trends
