@@ -1,4 +1,4 @@
-[← Page 5](05_revenue_trends.md)
+[← Page 5](05_revenue_trends.md)|[Back to README →](../README.md)
 
 # Procedural Insights
 
@@ -36,4 +36,4 @@ RETURN DIVIDE(Top5, [Total Encounters], 0)
 ## Insights
   - Top 5 procedures ≈ ~63% of volume; MRI/screenings are longest on average with mild gender variation.
 
-[← Page 5](05_revenue_trends.md)
+[← Page 5](05_revenue_trends.md)|[Back to README →](../README.md)
