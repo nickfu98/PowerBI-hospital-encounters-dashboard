@@ -35,3 +35,13 @@ Avg LOS (hrs)   = AVERAGE('vw_encounter_details'[LOS_Hours])
 Total Revenue   = SUM('vw_encounter_details'[payer_coverage])
 Revenue / Encounter = DIVIDE([Total Revenue], [Total Encounters], 0)
 Readmission Rate % = DIVIDE(SUM('vw_readmissions'[yes_readmit_30d]), COUNTROWS('vw_readmissions'), 0)
+
+---
+
+## Insights
+
+  - Stable LOS (~7.25 hours) across the period.
+  - Readmissions ~62% with higher rates in urgent/inpatient classes.
+  - Outpatient + Ambulatory dominate encounter mix.
+
+[Page 2 →](02_patient_volume_trends.md)
