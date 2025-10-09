@@ -1,4 +1,4 @@
-# PowerBI-hospital-encounters-dashboard
+# PowerBI Hospital Encounters Dashboard
 
 
 Project Overview
