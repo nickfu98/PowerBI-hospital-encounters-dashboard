@@ -5,13 +5,13 @@
 
 
 ## Purpose
-Assess financial performance by year, payer, and procedure.
+Assess financial performance by year, insurance provider, and procedure.
 
 ## Key Visuals
 | Visual | What it shows |
 |---|---|
 | Line: Total Revenue by Year | Revenue trend |
-| Column: Avg Revenue/Encounter by Payer | Efficiency by payer |
+| Column: Average Revenue/Encounter by Payer | Efficiency by payer |
 | Column: Total Revenue by Payer | Payer contribution |
 | Bar: Top 10 Procedures by Revenue | High-value services |
 
@@ -25,10 +25,13 @@ Assess financial performance by year, payer, and procedure.
 ## Key DAX
 ```DAX
 Total Revenue = SUM('vw_encounter_details'[payer_coverage])
-Revenue / Encounter = DIVIDE([Total Revenue], [Total Encounters], 0)
+Average Revenue / Encounter = DIVIDE([Total Revenue], [Total Encounters], 0)
 ```
 
 ## Insights
-  - Medicare + Blue Cross Blue Shield dominate revenue; cardiology/radiology drive top procedure revenue.
+  - Medicare + Blue Cross Blue Shield dominate average revenue per encounter whereas Medicare + Medicaid dominate total revenue.
+  - Cardiology and depression/mental health care drives top procedure revenue.
+  - Yearly revenue is consistently $2M+ with a spike to $3.5M in 2014.
+  - **NOTE:**
 
 [← Page 4](04_readmission_rates.md) | [Page 6 →](06_procedural_insights.md)
