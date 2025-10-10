@@ -4,8 +4,6 @@
 
 ![Patient Volume Trends](dashboard_screenshots/02_patient_volume_trends.png)
 
-
-
 ## Purpose
 Understand encounter volume across years/months and service types.
 
