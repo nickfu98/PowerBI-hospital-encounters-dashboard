@@ -1,8 +1,8 @@
 [← Page 4](04_readmission_rates.md) | [Page 6 →](06_procedural_insights.md)
 
-# Revenue Trends
 
 ![Revenue Trends](dashboard_screenshots/05_revenue_trends.png)
+
 
 ## Purpose
 Assess financial performance by year, payer, and procedure.
