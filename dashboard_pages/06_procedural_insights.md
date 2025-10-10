@@ -10,7 +10,7 @@ Summarize procedure mix, gender differences, and longest average stays.
 ## Key Visuals
 | Visual | What it shows |
 |---|---|
-| KPI Cards | Total Procedures, Top 5 % of Total, Avg LOS |
+| KPI Cards | Total Procedures, Top 5 Procedures % of Total, Avg LOS |
 | Clustered Bar | Gender distribution of Top 5 procedures |
 | Bar | Top 5 procedures by Avg LOS |
 
@@ -23,17 +23,31 @@ Summarize procedure mix, gender differences, and longest average stays.
 
 ## Key DAX
 ```DAX
-Top 5 Procedures % =
-VAR Top5 =
-    CALCULATE([Total Encounters],
-        KEEPFILTERS(
-            TOPN(5, VALUES('procedures'[procedure_code]), [Total Encounters], DESC)
+Top 5 Procedures % of Total = 
+    VAR Top5Total =
+        SUMX(
+            TOPN(
+                5,
+                VALUES(procedures[DESCRIPTION]),
+                [Total Encounters],
+                DESC
+            ),
+            [Total Encounters]
         )
-    )
-RETURN DIVIDE(Top5, [Total Encounters], 0)
+    VAR AllTotal =
+        CALCULATE(
+            [Total Encounters],
+            KEEPFILTERS(VALUES('DateTable'[Year])),
+            KEEPFILTERS(VALUES(Payers[payer_name])),
+            REMOVEFILTERS(Procedures)
+        )
+    RETURN
+    DIVIDE(Top5Total, AllTotal, 0)
 ```
 
 ## Insights
-  - Top 5 procedures ≈ ~63% of volume; MRI/screenings are longest on average with mild gender variation.
+  - Top 5 procedures = 62.7% of total volume
+  - Depression screenings and health/social care account for the majority of all procedures with minor differences between genders.
+  - Breast related screenings/care take the longest on avearge.
 
 [← Page 5](05_revenue_trends.md) | [Back to README →](../README.md)
