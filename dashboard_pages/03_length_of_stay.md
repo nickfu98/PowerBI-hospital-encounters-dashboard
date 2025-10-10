@@ -1,8 +1,8 @@
 [← Page 2](02_patient_volume_trends.md) | [Page 4 →](04_readmission_rates.md)
 
-# Length of Stay (LOS)
 
 ![Length of Stay](dashboard_screenshots/03_length_of_stay.png)
+
 
 ## Purpose
 Measure operational efficiency via average LOS by time and demographic.
