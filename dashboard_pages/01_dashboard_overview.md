@@ -41,6 +41,7 @@ DIVIDE(Readmits, TotalEncounters, 0)
 
   - Stable LOS (~7.25 hours) across the period.
   - Readmissions ~62% with higher rates in urgent/inpatient classes.
-  - Outpatient + Ambulatory dominate encounter mix.
+  -     (dfsafd)
+  - Outpatient + Ambulatory dominate the encounter mix.
 
 [← Back to README](../README.md) | [Page 2 →](02_patient_volume_trends.md)
