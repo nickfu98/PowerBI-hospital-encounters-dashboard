@@ -1,7 +1,7 @@
 [← Back to README](../README.md) | [Page 2 →](02_patient_volume_trends.md)
 
 
-![Overview](../dashboard_screenshots/01_dashboard_overview.png)
+![Overview](dashboard_screenshots/01_dashboard_overview.png)
 
 
 ## Purpose
