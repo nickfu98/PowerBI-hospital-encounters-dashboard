@@ -29,7 +29,8 @@ Encounters per Procedure = DISTINCTCOUNT('procedures'[encounter_id])
 ```
 
 ## Insights
-  - Peaks in 2014 and 2021, outpatient and ambulatory encounters drive growth. **NOTE:** The last encounter date is in February 2022, so metrics will always drop in 2022 with only 2 months of data.
+  - Peaks in 2014 and 2021, outpatient and ambulatory encounters drive growth.
+    **NOTE:** The last encounter date is in February 2022, so metrics will always drop in 2022 with only 2 months of data.
   - Procedure volume is concentrated in depression, mental and social healthcare.
     
 [← Page 1](01_dashboard_overview.md) | [Page 3 →](03_length_of_stay.md)
