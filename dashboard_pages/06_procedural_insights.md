@@ -2,7 +2,7 @@
 
 # Procedural Insights
 
-![Procedural Insights](../dashboard_screenshots/06_procedural_insights.png)
+![Procedural Insights](dashboard_screenshots/06_procedural_insights.png)
 
 ## Purpose
 Summarize procedure mix, gender differences, and longest average stays.
