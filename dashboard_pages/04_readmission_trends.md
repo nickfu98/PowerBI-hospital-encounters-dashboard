@@ -2,7 +2,7 @@
 
 # Readmission (30-Day) Trends
 
-![Readmission Trends](dashboard_screenshots/04_readmission_rates.png)
+![Readmission Trends](dashboard_screenshots/04_readmission_trends.png)
 
 ## Purpose
 Track 30-day readmission performance across payer, class, and age.
