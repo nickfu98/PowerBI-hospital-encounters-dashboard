@@ -28,7 +28,8 @@ Total Encounters = DISTINCTCOUNT(vw_encounter_details[encounter_id])
 Avg LOS (hrs)   = AVERAGE('vw_encounter_details'[LOS_Hours])
 Total Revenue   = SUM('vw_encounter_details'[payer_coverage])
 Revenue / Encounter = DIVIDE([Total Revenue], [Total Encounters], 0)
-Readmission Rate % = VAR Readmits =
+Readmission Rate % =
+VAR Readmits =
     SUM('vw_readmissions'[yes_readmit_30d])
 VAR TotalEncounters =
     COUNT('vw_readmissions'[encounter_id])
