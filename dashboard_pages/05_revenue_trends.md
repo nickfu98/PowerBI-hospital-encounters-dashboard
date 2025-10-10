@@ -32,6 +32,6 @@ Average Revenue / Encounter = DIVIDE([Total Revenue], [Total Encounters], 0)
   - Medicare + Blue Cross Blue Shield dominate average revenue per encounter whereas Medicare + Medicaid dominate total revenue.
   - Cardiology and depression/mental health care drives top procedure revenue.
   - Yearly revenue is consistently $2M+ with a spike to $3.5M in 2014.
-  - **NOTE:**
+  - **NOTE:** The last encounter date is in February 2022, so metrics will drop significantly in 2022 having only 2 months of data.
 
 [← Page 4](04_readmission_rates.md) | [Page 6 →](06_procedural_insights.md)
