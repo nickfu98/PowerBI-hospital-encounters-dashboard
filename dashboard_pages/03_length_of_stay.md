@@ -28,6 +28,7 @@ Avg LOS (hrs) = AVERAGE('vw_encounter_details'[LOS_Hours])
 ```
 
 ## Insights
-  - Longest LOS in <30 and 30–39 groups; spike in 2014 indicates episodic bottlenecks.
-
+  - Longest LOS in <30 and 30–39 groups.
+  - Spike in 2014 indicates episodic bottlenecks during the year, which drastically increases the average LOS which otherwise would be <5.
+ 
 [← Page 2](02_patient_volume_trends.md) | [Page 4 →](04_readmission_rates.md)
