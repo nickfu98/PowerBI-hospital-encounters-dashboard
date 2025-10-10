@@ -8,6 +8,8 @@
 - [Page 5: Revenue Trends](dashboard_pages/05_revenue_trends.md)
 - [Page 6: Procedural Insights](dashboard_pages/06_procedural_insights.md)
 
+---
+
 ## Project Overview
 This Power BI dashboard analyzes 27,891 hospital encounters recorded between 2011 and 2022.
 The goal was to uncover patterns in patient volume, length of stay, readmission rates, and revenue - enabling data-driven insights to improve hospital operations and patient outcomes.
