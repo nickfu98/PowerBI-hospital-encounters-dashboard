@@ -25,8 +25,8 @@ Executive snapshot of operational, clinical, and financial KPIs for Massachusett
 ## Key DAX
 ```DAX
 Total Encounters = DISTINCTCOUNT(vw_encounter_details[encounter_id])
-Avg LOS (hrs)   = AVERAGE('vw_encounter_details'[LOS_Hours])
-Total Revenue   = SUM('vw_encounter_details'[payer_coverage])
+Avg LOS (hrs) = AVERAGE('vw_encounter_details'[LOS_Hours])
+Total Revenue = SUM('vw_encounter_details'[payer_coverage])
 Revenue / Encounter = DIVIDE([Total Revenue], [Total Encounters], 0)
 Readmission Rate % =
 VAR Readmits =
