@@ -4,15 +4,15 @@
 
 
 ## Purpose
-Track 30-day readmission performance across payer, class, and age.
+Track 30-day readmission performance across insurance payer, encounter class, and age group.
 
 ## Key Visuals
 | Visual | What it shows |
 |---|---|
 | Line: Readmission Rate by Year | Quality trend over time |
-| Bar: By Encounter Class | Where readmits concentrate |
-| Bar: By Insurance Provider | Payer differences |
-| Column: By Age Group | Demographic risk |
+| Bar: Readmission Rate by Encounter Class | Where readmits concentrate |
+| Bar: Readmission Rate by Insurance Provider | Payer differences |
+| Column: Readmission Rate by Age Group | Demographic risk |
 
 ## Slicers Used
 - Timeline, Year, Insurance Provider, Age Group
@@ -23,11 +23,17 @@ Track 30-day readmission performance across payer, class, and age.
 
 ## Key DAX
 ```DAX
-Readmission Rate % =
-DIVIDE(SUM('vw_readmissions'[yes_readmit_30d]), COUNTROWS('vw_readmissions'), 0)
+Readmission Rate % = 
+  VAR Readmits =
+      SUM('vw_readmissions'[yes_readmit_30d])
+  VAR TotalEncounters =
+      COUNT('vw_readmissions'[encounter_id])
+  RETURN
+  DIVIDE(Readmits, TotalEncounters, 0)
 ```
 
 ## Insights
-  - Urgent care & inpatient classes show highest readmit rates; elderly cohorts (70+) trend higher.
+  - Urgent care & inpatient classes show highest readmit rates; all encounter classes have 50%+ readmission rates except for Wellness (21.3%).
+  - Elderly patients (70+) trend higher, while younger patients (<30-39) also readmit at higher rates than middle aged patients (40-69).
 
 [← Page 3](03_length_of_stay.md) | [Page 5 →](05_revenue_trends.md)
