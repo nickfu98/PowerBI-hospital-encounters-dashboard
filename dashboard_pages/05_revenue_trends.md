@@ -2,7 +2,7 @@
 
 # Revenue Trends
 
-![Revenue Trends](../dashboard_screenshots/05_revenue_trends.png)
+![Revenue Trends](dashboard_screenshots/05_revenue_trends.png)
 
 ## Purpose
 Assess financial performance by year, payer, and procedure.
