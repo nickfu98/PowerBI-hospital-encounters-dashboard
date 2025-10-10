@@ -39,9 +39,9 @@ DIVIDE(Readmits, TotalEncounters, 0)
 
 ## Insights
 
-  - Stable LOS (~7.25 hours) across the period.
-  - Readmissions ~62% with higher rates in urgent/inpatient classes.
-  -     (dfsafd)
+  - Stable LOS (7.25 hours) across the period.
+  - 30-day Readmissions at 62.3% with higher rates in urgent/inpatient classes.
+    **NOTE:** As this is synthetic dataset, this readmission rate is much higher than would be expected in real life (15% - 20%) 
   - Outpatient + Ambulatory dominate the encounter mix.
 
 [← Back to README](../README.md) | [Page 2 →](02_patient_volume_trends.md)
