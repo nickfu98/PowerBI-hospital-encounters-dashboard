@@ -12,7 +12,7 @@ Executive snapshot of operational, clinical, and financial KPIs for Massachusett
 |---|---|
 | KPI cards | Total Encounters, Total Patients, Avg LOS (hrs), Total Revenue, Revenue/Encounter |
 | Donut | 30-Day Readmission Rate |
-| 100% Stacked Bar | Encounter Class mix by Year |
+| 100% Stacked Bar | Yearly Encounter Class Mix |
 | Donut | Encounter Volume by Age Group |
 
 ## Slicers Used
@@ -24,17 +24,16 @@ Executive snapshot of operational, clinical, and financial KPIs for Massachusett
 
 ## Key DAX
 ```DAX
-Total Encounters = COUNTROWS('vw_encounter_details')
+Total Encounters = DISTINCTCOUNT(vw_encounter_details[encounter_id])
 Avg LOS (hrs)   = AVERAGE('vw_encounter_details'[LOS_Hours])
 Total Revenue   = SUM('vw_encounter_details'[payer_coverage])
 Revenue / Encounter = DIVIDE([Total Revenue], [Total Encounters], 0)
-Readmission Rate % = DIVIDE(SUM('vw_readmissions'[yes_readmit_30d]), COUNTROWS('vw_readmissions'), 0)
-```DAX
-Total Encounters = COUNTROWS('vw_encounter_details')
-Avg LOS (hrs)   = AVERAGE('vw_encounter_details'[LOS_Hours])
-Total Revenue   = SUM('vw_encounter_details'[payer_coverage])
-Revenue / Encounter = DIVIDE([Total Revenue], [Total Encounters], 0)
-Readmission Rate % = DIVIDE(SUM('vw_readmissions'[yes_readmit_30d]), COUNTROWS('vw_readmissions'), 0)
+Readmission Rate % = VAR Readmits =
+    SUM('vw_readmissions'[yes_readmit_30d])
+VAR TotalEncounters =
+    COUNT('vw_readmissions'[encounter_id])
+RETURN
+DIVIDE(Readmits, TotalEncounters, 0)
 ```
 
 ## Insights
