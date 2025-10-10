@@ -1,8 +1,8 @@
 [← Page 5](05_revenue_trends.md) | [Back to README →](../README.md)
 
-# Procedural Insights
 
 ![Procedural Insights](dashboard_screenshots/06_procedural_insights.png)
+
 
 ## Purpose
 Summarize procedure mix, gender differences, and longest average stays.
