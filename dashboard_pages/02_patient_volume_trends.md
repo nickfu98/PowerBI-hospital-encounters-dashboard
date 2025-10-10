@@ -1,7 +1,5 @@
 [← Page 1](01_dashboard_overview.md) | [Page 3 →](03_length_of_stay.md)
 
-# Patient Volume Trends
-
 ![Patient Volume Trends](dashboard_screenshots/02_patient_volume_trends.png)
 
 
