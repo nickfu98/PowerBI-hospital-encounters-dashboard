@@ -2,7 +2,7 @@
 
 # Length of Stay (LOS)
 
-![Length of Stay](../dashboard_screenshots/03_length_of_stay.png)
+![Length of Stay](dashboard_screenshots/03_length_of_stay.png)
 
 ## Purpose
 Measure operational efficiency via average LOS by time and demographic.
