@@ -1,48 +1,27 @@
 # PowerBI Hospital Encounters Dashboard
 
-## Explore Each Page
-- [Page 1: Overview](dashboard_pages/01_dashboard_overview.md)
-- [Page 2: Patient Volume Trends](dashboard_pages/02_patient_volume_trends.md)
-- [Page 3: Length of Stay](dashboard_pages/03_length_of_stay.md)
-- [Page 4: Readmission (30-day) Trends](dashboard_pages/04_readmission_rates.md)
-- [Page 5: Revenue Trends](dashboard_pages/05_revenue_trends.md)
-- [Page 6: Procedural Insights](dashboard_pages/06_procedural_insights.md)
-
 ---
 
 ## Project Overview
 This Power BI dashboard analyzes 27,891 hospital encounters recorded between 2011 and 2022.
 The goal was to uncover patterns in patient volume, length of stay, readmission rates, and revenue - enabling data-driven insights to improve hospital operations and patient outcomes.
 
-This project was built from a the same synthetic hospital encounters dataset used in my SQL project. 
-To keep the layout simple and readable, the dashboard is divided into six pages:
-
-1. Dashboard Overview - executive summary of key hospital KPIs
-
-2. Patient Volume Trends - yearly and monthly encounter trends
-
-3. Length of Stay (LOS) - duration patterns by year, month, and age group
-
-4. Readmission Rates - 30-day readmission trends by payer, class, and demographics
-
-5. Revenue Trends - total and per-encounter revenue performance
-
-6. Procedural Insights - procedure mix, gender distribution, and LOS by procedure
-
 ---
 
-## Data Model
-Source: SQL Server Management Studio (SSMS)
-Tables: `encounters`, `patients`, `payers`, `procedures`
 
-Date Table: Custom DAX table that auto-detects the first and last encounter dates (2011–2022) for slicer filtering.
+## Dashboard Structure
+# 1. Hospital Encounters Overview 
+![Overview](dashboard_screenshots/01_dashboard_overview.png)
 
-The model follows a star schema, centered on `vw_encounter_details` linked to dimension tables for Payers, Procedures, Patients, and Date Table.
 
----
+```
 
-## Dashboard Pages
-**1. Overview**
+### Insights
+
+  - Stable LOS (7.25 hours) across the period.
+  - 30-day Readmissions at 62.3% with higher rates in urgent/inpatient classes.
+    **NOTE:** As this is synthetic dataset, this readmission rate is much higher than would be expected in real life (15% - 20%) 
+  - Outpatient + Ambulatory dominate the encounter mix.
 This page summarizes high-level KPIs across all encounters:
   - Total Encounters: 27,891
   - Total Patients: 974
