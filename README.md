@@ -10,7 +10,7 @@ The goal was to uncover patterns in patient volume, length of stay, readmission 
 
 
 ## Dashboard Structure
-# 1. Dashboard Overview (Page 1)
+# 1. Dashboard Overview
 
 ![Page 1](images/01_dashboard_overview.png)
 
@@ -31,7 +31,7 @@ Insight: The hospital maintained consistent patient throughput over the decade, 
 
 ---
 
-# 2. Patient Volume Trends (Page 2)
+# 2. Patient Volume Trends
 
 ![Page 2](images/02_patient_volume_trends.png)
 
@@ -52,7 +52,7 @@ Insight: Encounter volume peaks in 2014 and 2020–2022, aligning with outpatien
 
 ---
 
-# 3. Length of Stay (LOS) (Page 3)
+# 3. Length of Stay (LOS)
 
 ![Page 3](images/03_length_of_stay.png)
 
@@ -73,7 +73,7 @@ Insight: Patients under 30 and 30–39 had the longest stays, averaging ~30–40
 
 ---
 
-# 4. Readmission (30-Day) Trends (Page 4)
+# 4. Readmission (30-Day) Trends
 
 ![Page 4](images/04_readmission_trends.png)
 
@@ -94,7 +94,7 @@ Insight: Urgent Care and Inpatient classes show the highest readmission rates, p
 
 ---
 
-# 5. Revenue Trends (Page 5)
+# 5. Revenue Trends
 
 ![Page 5](images/05_revenue_trends.png)
 
@@ -115,7 +115,7 @@ Insight: Medicare and Blue Cross Blue Shield together account for nearly 70 % of
 
 ---
 
-# 6. Procedural Insights (Page 6)
+# 6. Procedural Insights
 
 ![Page 6](images/06_procedural_insights.png)
 
