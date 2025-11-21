@@ -11,7 +11,7 @@ The goal was to uncover patterns in patient volume, length of stay, readmission 
 
 ## Dashboard Structure
 # 1. Hospital Encounters Overview 
-![Overview](dashboard_screenshots/01_dashboard_overview.png)
+![Overview](images/01_dashboard_overview.png)
 
 
 ```
