@@ -3,7 +3,7 @@
 ---
 
 ## Project Overview
-This Power BI dashboard analyzes 27,891 hospital encounters recorded between 2011 and 2022.
+This Power BI dashboard analyzes over 26,000 hospital encounters recorded between 2011 and 2021.
 The goal was to uncover patterns in patient volume, length of stay, readmission rates, and revenue - enabling data-driven insights to improve hospital operations and patient outcomes.
 
 ---
