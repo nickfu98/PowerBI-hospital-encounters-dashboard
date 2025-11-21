@@ -13,9 +13,6 @@ The goal was to uncover patterns in patient volume, length of stay, readmission 
 # 1. Hospital Encounters Overview 
 ![Overview](images/01_dashboard_overview.png)
 
-
-```
-
 ### Insights
 
   - Stable LOS (7.25 hours) across the period.
